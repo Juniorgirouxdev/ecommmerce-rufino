@@ -1,3 +1,7 @@
+/*******
+HEADER
+*******/
+
 header {
   width: 100%;
   height: 100vh;
@@ -94,4 +98,57 @@ header {
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
+}
+
+
+/***********************
+PRODUTOS MAIS ACESSADOS
+************************/
+
+.container-mais-acessados {
+  width: 100%;
+  height: 85vh;
+}
+
+.texto-principal-acessados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+
+.texto-principal-acessados h2 {
+  color:#333);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.texto-principal-acessados p {
+  color: #666);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+
+.container-box-acessados {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.box-acessados img {
+  width: 23.8125rem;
+  height: 30rem;
+}
+
+.box-acessados h3 {
+  color: #333;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
 }

@@ -192,6 +192,7 @@ PROMOÇÕES
   width: 20rem;
   height: 18rem;
   cursor: pointer;
+  border-radius: 0.3rem 0.3rem 0 0;
 }
 
 .card-titulo {

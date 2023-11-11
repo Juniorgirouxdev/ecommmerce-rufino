@@ -88,18 +88,15 @@ header {
 }
 
 .container-texto-header button {
-  border: none;
   padding: 1.5625rem 6rem;
-  gap: 0.625rem;
   margin: 2.8rem 0;
   cursor: pointer;
-  
+  border: none;
   background-color: #b88e2f;
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
 }
-
 
 /***********************
 PRODUTOS MAIS ACESSADOS
@@ -119,17 +116,16 @@ PRODUTOS MAIS ACESSADOS
 }
 
 .texto-principal-acessados h2 {
-  color:#333);
+  color: #333;
   font-size: 2rem;
   font-weight: 700;
 }
 
 .texto-principal-acessados p {
-  color: #666);
+  color: #666;
   font-size: 1.25rem;
   font-weight: 400;
 }
-
 
 .container-box-acessados {
   width: 100%;
@@ -143,6 +139,7 @@ PRODUTOS MAIS ACESSADOS
 .box-acessados img {
   width: 23.8125rem;
   height: 30rem;
+  cursor: pointer;
 }
 
 .box-acessados h3 {
@@ -151,4 +148,180 @@ PRODUTOS MAIS ACESSADOS
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 1.25rem;
+}
+
+/********
+PROMOÇÕES
+*********/
+
+.container-promo {
+  width: 100%;
+  padding: 2.5rem 15rem;
+}
+
+.texto-principal-promoções {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 3rem 0;
+}
+.texto-principal-promoções h2 {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.conteiner-cards-promoções {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.card-promo {
+  width: 20rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #b88e2f80;
+  border-radius: 0.3rem;
+}
+
+.card-promo img {
+  width: 20rem;
+  height: 18rem;
+  cursor: pointer;
+}
+
+.card-titulo {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 2rem 0 0 2rem;
+}
+
+.card-sub-titulo {
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0.2rem 0 0.8rem 2rem;
+}
+
+.preço-de {
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 2rem;
+  text-decoration: line-through;
+}
+
+.preço-por {
+  color: #3a3a3a;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 2rem;
+}
+
+.container-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-promo button {
+  width: 10rem;
+  padding: 0.8rem 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  border: none;
+  background-color: #b88e2f;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.promo-butão {
+  display: flex;
+  justify-content: center;
+}
+
+.promo-butão button {
+  padding: 1rem 4rem;
+  margin: 2.8rem 0 0 0;
+  cursor: pointer;
+  border: 1px solid #b88e2f;
+  background-color: #fff;
+  color: #b88e2f;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/*****
+Footer
+******/
+
+.container-boxs-footer {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-left: 15rem;
+}
+
+.boxs-footer {
+  width: 20rem;
+  height: 14rem;
+  margin: 4rem 0;
+}
+
+.boxs-footer h2 {
+  color: #000;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.boxs-footer p {
+  color: #9f9f9f;
+
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container-boxs-footer nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container-boxs-footer nav a {
+  text-decoration: none;
+  color: #9f9f9f;
+}
+
+.separador-footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer hr {
+  width: 77.50094rem;
+  height: 0.05rem;
+}
+
+.referencias-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.referencias-footer p {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+footer span {
+  color: #b88e2f;
 }
